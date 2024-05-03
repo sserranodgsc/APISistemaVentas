@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\APISistemaVentas.BLL\APISistemaVentas.BLL.csproj" />
+    <ProjectReference Include="..\APISistemaVentas.DAL\APISistemaVentas.DAL.csproj" />
+    <ProjectReference Include="..\APISistemaVentas.Utilities\APISistemaVentas.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>
